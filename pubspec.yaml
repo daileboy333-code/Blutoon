@@ -1,0 +1,23 @@
+name: blutoon
+description: Manga & Novel reader app
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  supabase_flutter: ^2.3.0
+  flutter_bloc: ^8.1.4
+  equatable: ^2.0.5
+  cached_network_image: ^3.3.1
+  shimmer: ^3.0.0
+  google_fonts: ^6.1.0
+  visibility_detector: ^0.4.0+2
+  hive_flutter: ^1.1.0
+  path_provider: ^2.1.2
+
+flutter:
+  uses-material-design: true
